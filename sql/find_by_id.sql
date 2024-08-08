@@ -1,0 +1,1 @@
+SELECT * FROM todo where id = $1
