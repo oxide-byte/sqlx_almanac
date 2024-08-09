@@ -46,7 +46,7 @@ async fn query_embedded(pool: &PgPool) {
         .fetch_all(pool)
         .await
         .unwrap();
-    println!("todos: {:?}", todos);
+    println!("todos : {:?}", todos);
 }
 
 async fn query_file(pool: &PgPool) {

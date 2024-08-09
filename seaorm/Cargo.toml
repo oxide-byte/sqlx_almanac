@@ -1,0 +1,10 @@
+[package]
+name = "seaorm_almanac"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+futures = "0.3"
+sea-orm = { version = "1.0.0", features = [ "runtime-async-std", "sqlx-postgres", "with-chrono"] }
+chrono = "0.4.38"
